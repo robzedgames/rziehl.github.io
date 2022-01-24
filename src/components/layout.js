@@ -39,7 +39,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()} Robert Ziehl
+        © {new Date().getFullYear()} Rob Zed
         {` | `}
         <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>
         {` | `}

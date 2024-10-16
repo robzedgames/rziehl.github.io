@@ -1,0 +1,17 @@
+---
+layout: default
+title: Categories
+---
+<div class="container">
+  <div class="row">
+    <h3 class="post-title">Categories</h3>
+
+    <ul>
+      {% for category in site.categories %}
+        <li>
+          <strong><a href="{{ category.url }}">{{ category.name }}</strong></a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

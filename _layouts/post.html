@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h3 class="post-title">{{ page.title | capitalize }}</h3>
+<h5 class="post-subtitle">{{ page.subtitle | capitalize }}</h5>
+
+<p class="post-date">
+  {{ page.date | date_to_string }}
+  {% assign category = site.categories | where: 'short_name', page.category | first %}
+  {% if category %}
+    - <a href="{{ category.url }}">{{ category.name }}</a>
+  {% endif %}
+</p>
+
+{{ content }}

@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+---
+<div class="container">
+  <div class="row">
+    <h3 class="post-title">Articles</h3>
+
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          {{ post.date | date_to_string }} - <strong><a href="{{ post.url }}">{{ post.title }}</strong>: {{ post.subtitle }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

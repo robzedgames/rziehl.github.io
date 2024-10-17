@@ -1,3 +1,6 @@
+url: "https://robzed.com"
+plugins:
+  - jekyll-sitemap
 collections:
   categories:
     output: true

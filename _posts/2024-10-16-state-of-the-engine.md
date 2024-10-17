@@ -53,7 +53,7 @@ So not a bad base overall, it could be better, there's lots of gaps as my spare 
 
 ---
 
-So why write this post? It's mostly for myself. I'm taking a snapshot at this point in the development of this game to come back to years later for perspective. I'm sure that I'll change my mind on some of these thoughts over time with but let's see.
+So why write this post? It's mostly for myself. I'm taking a snapshot at this point in the development of this game to come back to years later for perspective. I'm sure that I'll change my mind on some of these thoughts over time but let's see.
 
 I am really curious to see by the end of this project, years from now, what the metrics will look like. I find posts like [this one](https://kotaku.com/the-exceptional-beauty-of-doom-3s-source-code-5975610) great for providing some similar stats. 
 

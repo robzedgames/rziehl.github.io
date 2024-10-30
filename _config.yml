@@ -1,8 +1,10 @@
 url: "https://robzed.com"
-permalink: /articles/:title.html
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 collections:
   categories:
     output: true
+  posts:
+    output: true
+    permalink: /articles/:title.html
